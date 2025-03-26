@@ -116,19 +116,15 @@ class NOAADecoder:
         rms = np.sqrt(np.mean(samples**2))
         self.signal_quality = min(100, max(0, (rms / 30) * 100))
         
-        current_time = time.time()
-        # Update image more frequently for better real-time feel
-        if current_time - self.last_update_time > 0.1 or self.line_counter % 5 == 0:
-            self.last_update_time = current_time
-            # Add info text periodically
-            draw = ImageDraw.Draw(self.current_image)
-            timestamp = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
-            draw.text((20, 20), 
-                     f"NOAA APT Line {self.line_counter}\n{timestamp}\nSNR: {self.signal_quality:.1f}%", 
-                     fill="white")
-            return self.current_image, self.signal_quality
-        
-        return None, None  # Don't return image if not enough time has passed
+        # Always return image and SNR (no timing threshold)
+        draw = ImageDraw.Draw(self.current_image)
+        timestamp = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+        draw.text((20, 20), 
+                 f"NOAA APT Line {self.line_counter}\n{timestamp}\nSNR: {self.signal_quality:.1f}%", 
+                 fill="white")
+        return self.current_image, self.signal_quality
+    
+
 class GOESDecoder:
     def __init__(self):
         self.reset()
@@ -297,16 +293,11 @@ class SDRApp:
         if self.decoding_active:
             self.decode_btn.config(text="■ Stop Decoding")
             self.show_status("Decoding started - displaying images")
+            # Force immediate display update
+            self.update_display()
         else:
             self.decode_btn.config(text="▶ Start Decoding")
             self.show_status("Decoding stopped", 3000)
-        
-        # Radio control buttons
-        self.radio_btn_frame = ttk.Frame(self.control_frame)
-        self.play_btn = ttk.Button(self.radio_btn_frame, text="▶ Start Reception", command=self.start_reception)
-        self.play_btn.pack(side=tk.LEFT, expand=True)
-        self.stop_btn = ttk.Button(self.radio_btn_frame, text="■ Stop Reception", command=self.stop_reception, state=tk.DISABLED)
-        self.stop_btn.pack(side=tk.LEFT, expand=True)
 
     def start_decoding(self):
         """Start the decoding process specifically for displaying images"""
@@ -642,7 +633,8 @@ class SDRApp:
                     else:
                         image, snr = self.goes_decoder.process_samples(samples)
                     
-                    if image is not None:  # Only update if we have a new image
+                    # Always put image in queue if we have one
+                    if image is not None:
                         self.image_queue.put(image)
                     if snr is not None:
                         self.snr_queue.put(snr)
@@ -653,10 +645,10 @@ class SDRApp:
         except Exception as e:
             self.show_status(f"Process error: {e}", 5000)
 
-
     def update_display(self):
         try:
             if self.decoding_active:
+                # Get all available images from queue
                 while True:
                     image = self.image_queue.get_nowait()
                     if image:
@@ -664,7 +656,7 @@ class SDRApp:
                         canvas_height = self.canvas.winfo_height()
                         
                         if canvas_width > 0 and canvas_height > 0:
-                            # Show partial images as they come in
+                            # Maintain aspect ratio
                             img_ratio = image.width / image.height
                             canvas_ratio = canvas_width / canvas_height
                             
@@ -675,12 +667,14 @@ class SDRApp:
                                 display_width = canvas_width
                                 display_height = int(canvas_width / img_ratio)
                             
+                            # Resize if needed
                             if display_width != image.width or display_height != image.height:
                                 display_image = image.resize((display_width, display_height), 
                                                         Image.Resampling.LANCZOS)
                             else:
                                 display_image = image
                             
+                            # Update display
                             self.current_image = ImageTk.PhotoImage(display_image)
                             self.canvas.delete("all")
                             self.canvas.create_image(
@@ -703,7 +697,10 @@ class SDRApp:
         except queue.Empty:
             pass
         
+        # Schedule next update
         self.root.after(50, self.update_display)
+
+
     def show_status(self, message, duration=3000):
         self.canvas.delete("status")
         
