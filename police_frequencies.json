@@ -1,0 +1,38 @@
+{
+    "United States": {
+        "Police": {
+            "VHF Low Band": {
+                "30-50 MHz": [
+                    "39.46 MHz - Police Emergency",
+                    "39.50 MHz - Police Emergency",
+                    "45.50 MHz - Police Emergency"
+                ]
+            },
+            "VHF High Band": {
+                "150-174 MHz": [
+                    "155.475 MHz - Police Emergency",
+                    "155.505 MHz - Police Emergency",
+                    "155.535 MHz - Police Emergency"
+                ]
+            },
+            "UHF": {
+                "450-470 MHz": [
+                    "453.050 MHz - Police Emergency",
+                    "453.075 MHz - Police Emergency",
+                    "453.100 MHz - Police Emergency"
+                ]
+            }
+        },
+        "Emergency Services": {
+            "Fire": [
+                "154.280 MHz - Fire Dispatch",
+                "154.295 MHz - Fire Dispatch",
+                "154.340 MHz - Fire Dispatch"
+            ],
+            "EMS": [
+                "155.340 MHz - EMS Dispatch",
+                "155.400 MHz - EMS Dispatch"
+            ]
+        }
+    }
+} 
