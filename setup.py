@@ -23,11 +23,31 @@ def install_dependencies():
         subprocess.run(["brew", "install", "portaudio", "rtl-sdr"], check=True)
         
     elif system == "Linux":
-        # Check if we're on a Debian-based system
-        if os.path.exists("/etc/debian_version"):
+        # Check if we're on a Raspberry Pi
+        if os.path.exists("/proc/device-tree/model") and "raspberry pi" in open("/proc/device-tree/model").read().lower():
+            print("Detected Raspberry Pi - installing required dependencies...")
+            # Install system dependencies for Raspberry Pi
             subprocess.run(["sudo", "apt-get", "update"], check=True)
-            subprocess.run(["sudo", "apt-get", "install", "-y", "python3-pyaudio", "librtlsdr-dev", "rtl-sdr"], check=True)
-        # Add other Linux distributions as needed
+            subprocess.run(["sudo", "apt-get", "install", "-y", 
+                          "python3-pyaudio",
+                          "portaudio19-dev",
+                          "python3-pip",
+                          "librtlsdr-dev",
+                          "rtl-sdr",
+                          "build-essential",
+                          "python3-dev"], check=True)
+            
+            # Install PyAudio using pip with specific options for Raspberry Pi
+            subprocess.run([sys.executable, "-m", "pip", "install", "--no-cache-dir", 
+                          "pyaudio==0.2.11"], check=True)
+        else:
+            # Regular Linux installation
+            if os.path.exists("/etc/debian_version"):
+                subprocess.run(["sudo", "apt-get", "update"], check=True)
+                subprocess.run(["sudo", "apt-get", "install", "-y", 
+                              "python3-pyaudio", 
+                              "librtlsdr-dev", 
+                              "rtl-sdr"], check=True)
     
     elif system == "Windows":
         print("Please install the following manually on Windows:")
