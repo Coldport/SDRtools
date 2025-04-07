@@ -1,38 +1,1430 @@
 {
     "United States": {
-        "Police": {
-            "VHF Low Band": {
-                "30-50 MHz": [
-                    "39.46 MHz - Police Emergency",
-                    "39.50 MHz - Police Emergency",
-                    "45.50 MHz - Police Emergency"
-                ]
-            },
-            "VHF High Band": {
-                "150-174 MHz": [
-                    "155.475 MHz - Police Emergency",
-                    "155.505 MHz - Police Emergency",
-                    "155.535 MHz - Police Emergency"
-                ]
-            },
-            "UHF": {
-                "450-470 MHz": [
-                    "453.050 MHz - Police Emergency",
-                    "453.075 MHz - Police Emergency",
-                    "453.100 MHz - Police Emergency"
+        "Alabama": {
+            "Birmingham": {
+                "Police": [
+                    "460.225 MHz - Birmingham PD Dispatch",
+                    "460.475 MHz - Birmingham PD Tactical"
+                ],
+                "Fire": [
+                    "154.190 MHz - Birmingham FD Dispatch"
+                ],
+                "EMS": [
+                    "155.235 MHz - Birmingham EMS"
                 ]
             }
         },
-        "Emergency Services": {
+        "Alaska": {
+            "Anchorage": {
+                "Police": [
+                    "460.150 MHz - Anchorage PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Anchorage FD Dispatch"
+                ],
+                "EMS": [
+                    "155.340 MHz - Anchorage EMS"
+                ]
+            }
+        },
+        "Arizona": {
+            "Phoenix": {
+                "Police": [
+                    "460.175 MHz - Phoenix PD Dispatch",
+                    "460.425 MHz - Phoenix PD Tactical"
+                ],
+                "Fire": [
+                    "154.160 MHz - Phoenix FD Dispatch"
+                ],
+                "EMS": [
+                    "155.385 MHz - Phoenix EMS"
+                ]
+            },
+            "Tucson": {
+                "Police": [
+                    "460.400 MHz - Tucson PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Tucson FD Dispatch"
+                ]
+            }
+        },
+        "Arkansas": {
+            "Little Rock": {
+                "Police": [
+                    "460.150 MHz - Little Rock PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Little Rock FD"
+                ]
+            }
+        },
+        "California": {
+            "Los Angeles": {
+                "Police": [
+                    "460.050 MHz - LAPD Central Dispatch",
+                    "460.100 MHz - LAPD Valley Dispatch",
+                    "460.150 MHz - LAPD West Dispatch",
+                    "460.200 MHz - LAPD East Dispatch",
+                    "460.250 MHz - LAPD South Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - LAFD Dispatch",
+                    "154.265 MHz - LAFD Tactical"
+                ],
+                "EMS": [
+                    "155.300 MHz - LA County EMS"
+                ]
+            },
+            "San Diego": {
+                "Police": [
+                    "460.275 MHz - SDPD Dispatch 1",
+                    "460.325 MHz - SDPD Dispatch 2"
+                ],
+                "Fire": [
+                    "154.190 MHz - SDFD Dispatch"
+                ]
+            },
+            "San Francisco": {
+                "Police": [
+                    "460.400 MHz - SFPD Dispatch 1",
+                    "460.450 MHz - SFPD Dispatch 2"
+                ],
+                "Fire": [
+                    "154.310 MHz - SFFD Main",
+                    "154.235 MHz - SFFD Tactical"
+                ],
+                "EMS": [
+                    "155.235 MHz - SF EMS"
+                ]
+            },
+            "San Jose": {
+                "Police": [
+                    "460.125 MHz - San Jose PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - San Jose FD"
+                ]
+            }
+        },
+        "Colorado": {
+            "Denver": {
+                "Police": [
+                    "460.425 MHz - Denver PD Dispatch",
+                    "460.475 MHz - Denver PD Tactical"
+                ],
+                "Fire": [
+                    "154.310 MHz - Denver FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Denver EMS"
+                ]
+            }
+        },
+        "Connecticut": {
+            "Hartford": {
+                "Police": [
+                    "460.375 MHz - Hartford PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Hartford FD"
+                ]
+            }
+        },
+        "Delaware": {
+            "Wilmington": {
+                "Police": [
+                    "460.125 MHz - Wilmington PD"
+                ],
+                "Fire": [
+                    "154.265 MHz - Wilmington FD"
+                ]
+            }
+        },
+        "Florida": {
+            "Jacksonville": {
+                "Police": [
+                    "460.425 MHz - Jacksonville PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Jacksonville FD"
+                ]
+            },
+            "Miami": {
+                "Police": [
+                    "460.125 MHz - Miami PD Dispatch",
+                    "460.150 MHz - Miami PD Tactical"
+                ],
+                "Fire": [
+                    "154.070 MHz - Miami FD Dispatch"
+                ],
+                "EMS": [
+                    "155.340 MHz - Miami-Dade EMS"
+                ]
+            },
+            "Orlando": {
+                "Police": [
+                    "460.050 MHz - Orlando PD Dispatch",
+                    "460.100 MHz - Orlando PD Tactical"
+                ],
+                "Fire": [
+                    "154.250 MHz - Orlando FD Dispatch"
+                ],
+                "EMS": [
+                    "155.205 MHz - Orlando EMS"
+                ]
+            },
+            "Tampa": {
+                "Police": [
+                    "460.575 MHz - Tampa PD Dispatch"
+                ],
+                "Fire": [
+                    "154.430 MHz - Tampa FD"
+                ]
+            }
+        },
+        "Georgia": {
+            "Atlanta": {
+                "Police": [
+                    "460.375 MHz - Atlanta PD Zone 1",
+                    "460.400 MHz - Atlanta PD Zone 2"
+                ],
+                "Fire": [
+                    "154.280 MHz - Atlanta FD Dispatch"
+                ],
+                "EMS": [
+                    "155.205 MHz - Atlanta EMS"
+                ]
+            }
+        },
+        "Hawaii": {
+            "Honolulu": {
+                "Police": [
+                    "460.050 MHz - Honolulu PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Honolulu FD"
+                ]
+            }
+        },
+        "Idaho": {
+            "Boise": {
+                "Police": [
+                    "460.150 MHz - Boise PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Boise FD"
+                ]
+            }
+        },
+        "Illinois": {
+            "Chicago": {
+                "Police": [
+                    "460.125 MHz - Chicago PD Zone 1",
+                    "460.175 MHz - Chicago PD Zone 2",
+                    "460.200 MHz - Chicago PD Zone 3",
+                    "460.225 MHz - Chicago PD Zone 4"
+                ],
+                "Fire": [
+                    "154.170 MHz - Chicago FD Main",
+                    "154.250 MHz - Chicago FD Tactical"
+                ],
+                "EMS": [
+                    "155.340 MHz - Chicago EMS" 
+                ]
+            }
+        },
+        "Indiana": {
+            "Indianapolis": {
+                "Police": [
+                    "460.125 MHz - Indianapolis PD Dispatch",
+                    "460.425 MHz - Indianapolis PD Tactical"
+                ],
+                "Fire": [
+                    "154.160 MHz - Indianapolis FD Dispatch"
+                ],
+                "EMS": [
+                    "155.235 MHz - Indianapolis EMS"
+                ]
+            }
+        },
+        "Iowa": {
+            "Des Moines": {
+                "Police": [
+                    "460.175 MHz - Des Moines PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Des Moines FD"
+                ]
+            }
+        },
+        "Kansas": {
+            "Wichita": {
+                "Police": [
+                    "460.375 MHz - Wichita PD Dispatch"
+                ],
+                "Fire": [
+                    "154.370 MHz - Wichita FD"
+                ]
+            }
+        },
+        "Kentucky": {
+            "Louisville": {
+                "Police": [
+                    "460.450 MHz - Louisville PD Dispatch"
+                ],
+                "Fire": [
+                    "154.430 MHz - Louisville FD"
+                ]
+            }
+        },
+        "Louisiana": {
+            "New Orleans": {
+                "Police": [
+                    "460.500 MHz - New Orleans PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - New Orleans FD"
+                ]
+            }
+        },
+        "Maine": {
+            "Portland": {
+                "Police": [
+                    "460.175 MHz - Portland PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Portland FD"
+                ]
+            }
+        },
+        "Maryland": {
+            "Baltimore": {
+                "Police": [
+                    "460.475 MHz - Baltimore PD Central",
+                    "460.500 MHz - Baltimore PD East/West"
+                ],
+                "Fire": [
+                    "154.190 MHz - Baltimore FD Dispatch"
+                ],
+                "EMS": [
+                    "155.340 MHz - Baltimore EMS"
+                ]
+            }
+        },
+        "Massachusetts": {
+            "Boston": {
+                "Police": [
+                    "460.250 MHz - Boston PD District 1",
+                    "460.275 MHz - Boston PD District 2"
+                ],
+                "Fire": [
+                    "154.430 MHz - Boston FD Dispatch"
+                ],
+                "EMS": [
+                    "155.205 MHz - Boston EMS"
+                ]
+            }
+        },
+        "Michigan": {
+            "Detroit": {
+                "Police": [
+                    "460.225 MHz - Detroit PD Dispatch 1",
+                    "460.275 MHz - Detroit PD Dispatch 2"
+                ],
+                "Fire": [
+                    "154.280 MHz - Detroit FD Main"
+                ],
+                "EMS": [
+                    "155.340 MHz - Detroit EMS"
+                ]
+            }
+        },
+        "Minnesota": {
+            "Minneapolis": {
+                "Police": [
+                    "460.050 MHz - Minneapolis PD North",
+                    "460.175 MHz - Minneapolis PD South"
+                ],
+                "Fire": [
+                    "154.310 MHz - Minneapolis FD"
+                ]
+            },
+            "Saint Paul": {
+                "Police": [
+                    "460.425 MHz - St. Paul PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - St. Paul FD"
+                ]
+            }
+        },
+        "Mississippi": {
+            "Jackson": {
+                "Police": [
+                    "460.125 MHz - Jackson PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Jackson FD"
+                ]
+            }
+        },
+        "Missouri": {
+            "Kansas City": {
+                "Police": [
+                    "460.325 MHz - Kansas City PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Kansas City FD"
+                ]
+            },
+            "St. Louis": {
+                "Police": [
+                    "460.400 MHz - St. Louis PD Dispatch"
+                ],
+                "Fire": [
+                    "154.190 MHz - St. Louis FD"
+                ]
+            }
+        },
+        "Montana": {
+            "Billings": {
+                "Police": [
+                    "460.225 MHz - Billings PD Dispatch"
+                ],
+                "Fire": [
+                    "154.370 MHz - Billings FD"
+                ]
+            }
+        },
+        "Nebraska": {
+            "Omaha": {
+                "Police": [
+                    "460.250 MHz - Omaha PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Omaha FD"
+                ]
+            }
+        },
+        "Nevada": {
+            "Las Vegas": {
+                "Police": [
+                    "460.525 MHz - Las Vegas PD Dispatch",
+                    "460.550 MHz - Las Vegas PD Tactical"
+                ],
+                "Fire": [
+                    "154.250 MHz - Las Vegas FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Las Vegas EMS"
+                ]
+            }
+        },
+        "New Hampshire": {
+            "Manchester": {
+                "Police": [
+                    "460.050 MHz - Manchester PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Manchester FD"
+                ]
+            }
+        },
+        "New Jersey": {
+            "Newark": {
+                "Police": [
+                    "460.375 MHz - Newark PD Dispatch",
+                    "460.475 MHz - Newark PD Tactical"
+                ],
+                "Fire": [
+                    "154.190 MHz - Newark FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Newark EMS"
+                ]
+            },
+            "Jersey City": {
+                "Police": [
+                    "460.450 MHz - Jersey City PD"
+                ],
+                "Fire": [
+                    "154.265 MHz - Jersey City FD"
+                ]
+            }
+        },
+        "New Mexico": {
+            "Albuquerque": {
+                "Police": [
+                    "460.125 MHz - Albuquerque PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Albuquerque FD"
+                ]
+            }
+        },
+        "New York": {
+            "New York City": {
+                "Police": [
+                    "460.500 MHz - NYPD Manhattan North Dispatch",
+                    "460.550 MHz - NYPD Manhattan South Dispatch",
+                    "460.600 MHz - NYPD Brooklyn North Dispatch",
+                    "460.650 MHz - NYPD Brooklyn South Dispatch",
+                    "460.700 MHz - NYPD Queens North Dispatch",
+                    "460.750 MHz - NYPD Queens South Dispatch",
+                    "460.800 MHz - NYPD Bronx Dispatch",
+                    "460.850 MHz - NYPD Staten Island Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - FDNY Dispatch Manhattan",
+                    "154.370 MHz - FDNY Dispatch Bronx",
+                    "154.430 MHz - FDNY Dispatch Brooklyn",
+                    "154.370 MHz - FDNY EMS Citywide"
+                ],
+                "EMS": [
+                    "155.340 MHz - NYC EMS Dispatch",
+                    "155.385 MHz - NYC EMS Tactical",
+                    "155.400 MHz - NYC EMS Telemetry"
+                ]
+            },
+            "Buffalo": {
+                "Police": [
+                    "460.550 MHz - Buffalo PD Dispatch",
+                    "460.150 MHz - Buffalo PD Tactical"
+                ],
+                "Fire": [
+                    "154.190 MHz - Buffalo FD Dispatch"
+                ],
+                "EMS": [
+                    "155.205 MHz - Buffalo EMS"
+                ]
+            },
+            "Rochester": {
+                "Police": [
+                    "460.475 MHz - Rochester PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Rochester FD"
+                ]
+            }
+        },
+        "North Carolina": {
+            "Charlotte": {
+                "Police": [
+                    "460.225 MHz - Charlotte PD Dispatch",
+                    "460.275 MHz - Charlotte PD Tactical"
+                ],
+                "Fire": [
+                    "154.370 MHz - Charlotte FD"
+                ],
+                "EMS": [
+                    "155.205 MHz - Charlotte EMS"
+                ]
+            },
+            "Raleigh": {
+                "Police": [
+                    "460.375 MHz - Raleigh PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Raleigh FD"
+                ]
+            }
+        },
+        "North Dakota": {
+            "Fargo": {
+                "Police": [
+                    "460.125 MHz - Fargo PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Fargo FD"
+                ]
+            }
+        },
+        "Ohio": {
+            "Columbus": {
+                "Police": [
+                    "460.025 MHz - Columbus PD Zone 1",
+                    "460.250 MHz - Columbus PD Zone 2"
+                ],
+                "Fire": [
+                    "154.370 MHz - Columbus FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Columbus EMS"
+                ]
+            },
+            "Cleveland": {
+                "Police": [
+                    "460.425 MHz - Cleveland PD District 1",
+                    "460.450 MHz - Cleveland PD District 2"
+                ],
+                "Fire": [
+                    "154.280 MHz - Cleveland FD"
+                ],
+                "EMS": [
+                    "155.205 MHz - Cleveland EMS"
+                ]
+            },
+            "Cincinnati": {
+                "Police": [
+                    "460.050 MHz - Cincinnati PD Dispatch"
+                ],
+                "Fire": [
+                    "154.430 MHz - Cincinnati FD"
+                ]
+            }
+        },
+        "Oklahoma": {
+            "Oklahoma City": {
+                "Police": [
+                    "460.450 MHz - OKC PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - OKC FD"
+                ]
+            },
+            "Tulsa": {
+                "Police": [
+                    "460.375 MHz - Tulsa PD Dispatch"
+                ],
+                "Fire": [
+                    "154.265 MHz - Tulsa FD"
+                ]
+            }
+        },
+        "Oregon": {
+            "Portland": {
+                "Police": [
+                    "460.200 MHz - Portland PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Portland FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Portland EMS"
+                ]
+            }
+        },
+        "Pennsylvania": {
+            "Philadelphia": {
+                "Police": [
+                    "460.050 MHz - Philly PD Central",
+                    "460.100 MHz - Philly PD East",
+                    "460.150 MHz - Philly PD Southwest",
+                    "460.200 MHz - Philly PD Northwest"
+                ],
+                "Fire": [
+                    "154.310 MHz - Philadelphia FD Dispatch"
+                ],
+                "EMS": [
+                    "155.700 MHz - Philadelphia EMS"
+                ]
+            },
+            "Pittsburgh": {
+                "Police": [
+                    "460.225 MHz - Pittsburgh PD Dispatch"
+                ],
+                "Fire": [
+                    "154.160 MHz - Pittsburgh FD"
+                ],
+                "EMS": [
+                    "155.205 MHz - Pittsburgh EMS"
+                ]
+            }
+        },
+        "Rhode Island": {
+            "Providence": {
+                "Police": [
+                    "460.300 MHz - Providence PD Dispatch"
+                ],
+                "Fire": [
+                    "154.190 MHz - Providence FD"
+                ]
+            }
+        },
+        "South Carolina": {
+            "Columbia": {
+                "Police": [
+                    "460.125 MHz - Columbia PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Columbia FD"
+                ]
+            }
+        },
+        "South Dakota": {
+            "Sioux Falls": {
+                "Police": [
+                    "460.150 MHz - Sioux Falls PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Sioux Falls FD"
+                ]
+            }
+        },
+        "Tennessee": {
+            "Nashville": {
+                "Police": [
+                    "460.500 MHz - Nashville PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Nashville FD"
+                ],
+                "EMS": [
+                    "155.205 MHz - Nashville EMS"
+                ]
+            },
+            "Memphis": {
+                "Police": [
+                    "460.200 MHz - Memphis PD Dispatch"
+                ],
+                "Fire": [
+                    "154.370 MHz - Memphis FD"
+                ]
+            }
+        },
+        "Texas": {
+            "Houston": {
+                "Police": [
+                    "460.600 MHz - Houston PD Central",
+                    "460.650 MHz - Houston PD North",
+                    "460.700 MHz - Houston PD South",
+                    "460.750 MHz - Houston PD East",
+                    "460.800 MHz - Houston PD West",
+                    "460.850 MHz - Houston PD Northwest"
+                ],
+                "Fire": [
+                    "154.190 MHz - Houston FD Dispatch",
+                    "154.280 MHz - Houston FD Tactical"
+                ],
+                "EMS": [
+                    "155.340 MHz - Houston EMS"
+                ]
+            },
+            "Dallas": {
+                "Police": [
+                    "460.525 MHz - Dallas PD Central",
+                    "460.550 MHz - Dallas PD Northeast",
+                    "460.575 MHz - Dallas PD Southeast",
+                    "460.600 MHz - Dallas PD Southwest",
+                    "460.625 MHz - Dallas PD Northwest"
+                ],
+                "Fire": [
+                    "154.130 MHz - Dallas FD Dispatch"
+                ],
+                "EMS": [
+                    "155.805 MHz - Dallas EMS"
+                ]
+            },
+            "San Antonio": {
+                "Police": [
+                    "460.425 MHz - San Antonio PD Central",
+                    "460.450 MHz - San Antonio PD West"
+                ],
+                "Fire": [
+                    "154.280 MHz - San Antonio FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - San Antonio EMS"
+                ]
+            },
+            "Austin": {
+                "Police": [
+                    "460.125 MHz - Austin PD Central",
+                    "460.150 MHz - Austin PD North"
+                ],
+                "Fire": [
+                    "154.190 MHz - Austin FD"
+                ],
+                "EMS": [
+                    "155.235 MHz - Austin EMS"
+                ]
+            },
+            "Fort Worth": {
+                "Police": [
+                    "460.175 MHz - Fort Worth PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Fort Worth FD"
+                ]
+            },
+            "El Paso": {
+                "Police": [
+                    "460.300 MHz - El Paso PD Dispatch"
+                ],
+                "Fire": [
+                    "154.430 MHz - El Paso FD"
+                ]
+            }
+        },
+        "Utah": {
+            "Salt Lake City": {
+                "Police": [
+                    "460.225 MHz - SLC PD Dispatch"
+                ],
+                "Fire": [
+                    "154.370 MHz - SLC FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - SLC EMS"
+                ]
+            }
+        },
+        "Vermont": {
+            "Burlington": {
+                "Police": [
+                    "460.150 MHz - Burlington PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Burlington FD"
+                ]
+            }
+        },
+        "Virginia": {
+            "Virginia Beach": {
+                "Police": [
+                    "460.525 MHz - Virginia Beach PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Virginia Beach FD"
+                ]
+            },
+            "Richmond": {
+                "Police": [
+                    "460.375 MHz - Richmond PD Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Richmond FD"
+                ]
+            }
+        },
+        "Washington": {
+            "Seattle": {
+                "Police": [
+                    "460.425 MHz - Seattle PD North",
+                    "460.475 MHz - Seattle PD South"
+                ],
+                "Fire": [
+                    "154.280 MHz - Seattle FD"
+                ],
+                "EMS": [
+                    "155.235 MHz - Seattle EMS"
+                ]
+            }
+        },
+        "West Virginia": {
+            "Charleston": {
+                "Police": [
+                    "460.200 MHz - Charleston PD Dispatch"
+                ],
+                "Fire": [
+                    "154.370 MHz - Charleston FD"
+                ]
+            }
+        },
+        "Wisconsin": {
+            "Milwaukee": {
+                "Police": [
+                    "460.175 MHz - Milwaukee PD District 1",
+                    "460.225 MHz - Milwaukee PD District 2"
+                ],
+                "Fire": [
+                    "154.190 MHz - Milwaukee FD"
+                ],
+                "EMS": [
+                    "155.340 MHz - Milwaukee EMS"
+                ]
+            },
+            "Madison": {
+                "Police": [
+                    "460.150 MHz - Madison PD Dispatch"
+                ],
+                "Fire": [
+                    "154.280 MHz - Madison FD"
+                ]
+            }
+        },
+        "Wyoming": {
+            "Cheyenne": {
+                "Police": [
+                    "460.100 MHz - Cheyenne PD Dispatch"
+                ],
+                "Fire": [
+                    "154.250 MHz - Cheyenne FD"
+                ]
+            }
+        }
+    },
+    "Canada": {
+        "Ontario": {
+            "Toronto": {
+                "Police": [
+                    "856.7625 MHz - Toronto Police Primary",
+                    "857.7625 MHz - Toronto Police Downtown"
+                ],
+                "Fire": [
+                    "866.4875 MHz - Toronto Fire Dispatch"
+                ],
+                "EMS": [
+                    "860.6125 MHz - Toronto EMS Dispatch"
+                ]
+            },
+            "Ottawa": {
+                "Police": [
+                    "465.050 MHz - Ottawa Police Primary"
+                ],
+                "Fire": [
+                    "154.070 MHz - Ottawa Fire"
+                ],
+                "EMS": [
+                    "155.340 MHz - Ottawa EMS"
+                ]
+            },
+            "Hamilton": {
+                "Police": [
+                    "855.4875 MHz - Hamilton Police Primary"
+                ],
+                "Fire": [
+                    "154.010 MHz - Hamilton Fire"
+                ]
+            },
+            "Mississauga": {
+                "Police": [
+                    "857.4625 MHz - Peel Regional Police"
+                ],
+                "Fire": [
+                    "153.770 MHz - Mississauga Fire"
+                ]
+            }
+        },
+        "Quebec": {
+            "Montreal": {
+                "Police": [
+                    "460.075 MHz - Montreal Police Primary",
+                    "460.425 MHz - Montreal Police Secondary"
+                ],
+                "Fire": [
+                    "154.190 MHz - Montreal Fire Dispatch"
+                ],
+                "EMS": [
+                    "155.220 MHz - Montreal EMS"
+                ]
+            },
+            "Quebec City": {
+                "Police": [
+                    "460.125 MHz - Quebec City Police"
+                ],
+                "Fire": [
+                    "154.070 MHz - Quebec City Fire"
+                ]
+            }
+        },
+        "British Columbia": {
+            "Vancouver": {
+                "Police": [
+                    "450.150 MHz - Vancouver Police Dispatch"
+                ],
+                "Fire": [
+                    "154.310 MHz - Vancouver Fire Dispatch"
+                ],
+                "EMS": [
+                    "155.205 MHz - Vancouver EMS"
+                ]
+            },
+            "Surrey": {
+                "Police": [
+                    "451.675 MHz - Surrey RCMP"
+                ],
+                "Fire": [
+                    "154.010 MHz - Surrey Fire"
+                ]
+            }
+        },
+        "Alberta": {
+            "Calgary": {
+                "Police": [
+                    "460.200 MHz - Calgary Police Primary",
+                    "460.250 MHz - Calgary Police Secondary"
+                ],
+                "Fire": [
+                    "154.400 MHz - Calgary Fire"
+                ],
+                "EMS": [
+                    "155.220 MHz - Calgary EMS"
+                ]
+            },
+            "Edmonton": {
+                "Police": [
+                    "460.125 MHz - Edmonton Police"
+                ],
+                "Fire": [
+                    "154.370 MHz - Edmonton Fire"
+                ],
+                "EMS": [
+                    "155.340 MHz - Edmonton EMS"
+                ]
+            }
+        },
+        "Manitoba": {
+            "Winnipeg": {
+                "Police": [
+                    "460.325 MHz - Winnipeg Police"
+                ],
+                "Fire": [
+                    "154.280 MHz - Winnipeg Fire"
+                ]
+            }
+        }
+    },
+    "European Union": {
+        "Germany": {
+            "Berlin": {
+                "Police": [
+                    "167.760 MHz - Berlin Police Main",
+                    "167.860 MHz - Berlin Police Tactical"
+                ],
+                "Fire": [
+                    "168.540 MHz - Berlin Fire Brigade"
+                ],
+                "EMS": [
+                    "169.350 MHz - Berlin Ambulance Service"
+                ]
+            },
+            "Hamburg": {
+                "Police": [
+                    "167.625 MHz - Hamburg Police"
+                ],
+                "Emergency Services": [
+                    "168.325 MHz - Hamburg Emergency"
+                ]
+            },
+            "Munich": {
+                "Police": [
+                    "167.725 MHz - Munich Police"
+                ],
+                "Fire": [
+                    "168.465 MHz - Munich Fire Services"
+                ]
+            },
+            "Cologne": {
+                "Police": [
+                    "167.775 MHz - Cologne Police"
+                ],
+                "Emergency Services": [
+                    "168.640 MHz - Cologne Emergency"
+                ]
+            }
+        },
+        "France": {
+            "Paris": {
+                "Police": [
+                    "167.825 MHz - Paris Police Prefecture",
+                    "167.975 MHz - Paris Police Tactical"
+                ],
+                "Fire": [
+                    "168.625 MHz - Paris Fire Brigade"
+                ],
+                "EMS": [
+                    "169.175 MHz - Paris SAMU"
+                ]
+            },
+            "Marseille": {
+                "Police": [
+                    "167.675 MHz - Marseille Police"
+                ],
+                "Emergency Services": [
+                    "168.525 MHz - Marseille Emergency"
+                ]
+            },
+            "Lyon": {
+                "Police": [
+                    "167.750 MHz - Lyon Police"
+                ],
+                "Emergency Services": [
+                    "168.675 MHz - Lyon Emergency"
+                ]
+            }
+        },
+        "Italy": {
+            "Rome": {
+                "Police": [
+                    "167.625 MHz - Rome Police",
+                    "167.825 MHz - Rome Carabinieri"
+                ],
+                "Fire": [
+                    "168.450 MHz - Rome Fire Brigade"
+                ],
+                "EMS": [
+                    "169.225 MHz - Rome Emergency Medical"
+                ]
+            },
+            "Milan": {
+                "Police": [
+                    "167.725 MHz - Milan Police"
+                ],
+                "Emergency Services": [
+                    "168.375 MHz - Milan Emergency"
+                ]
+            },
+            "Naples": {
+                "Police": [
+                    "167.650 MHz - Naples Police"
+                ],
+                "Emergency Services": [
+                    "168.550 MHz - Naples Emergency"
+                ]
+            }
+        },
+        "Spain": {
+            "Madrid": {
+                "Police": [
+                    "167.775 MHz - Madrid Police",
+                    "167.850 MHz - Madrid National Police"
+                ],
+                "Fire": [
+                    "168.525 MHz - Madrid Fire Services"
+                ],
+                "EMS": [
+                    "169.275 MHz - Madrid Ambulance"
+                ]
+            },
+            "Barcelona": {
+                "Police": [
+                    "167.725 MHz - Barcelona Police"
+                ],
+                "Emergency Services": [
+                    "168.475 MHz - Barcelona Emergency"
+                ]
+            },
+            "Valencia": {
+                "Police": [
+                    "167.675 MHz - Valencia Police"
+                ],
+                "Emergency Services": [
+                    "168.625 MHz - Valencia Emergency"
+                ]
+            }
+        },
+        "Poland": {
+            "Warsaw": {
+                "Police": [
+                    "167.825 MHz - Warsaw Police"
+                ],
+                "Fire": [
+                    "168.550 MHz - Warsaw Fire Services"
+                ],
+                "EMS": [
+                    "169.100 MHz - Warsaw Ambulance"
+                ]
+            },
+            "Krakow": {
+                "Police": [
+                    "167.750 MHz - Krakow Police"
+                ],
+                "Emergency Services": [
+                    "168.425 MHz - Krakow Emergency"
+                ]
+            }
+        }
+    },
+    "United Kingdom": {
+        "England": {
+            "London": {
+                "Police": [
+                    "167.600 MHz - Metropolitan Police Main",
+                    "167.650 MHz - Metropolitan Police Tactical"
+                ],
+                "Fire": [
+                    "168.500 MHz - London Fire Brigade"
+                ],
+                "EMS": [
+                    "169.125 MHz - London Ambulance Service"
+                ]
+            },
+            "Birmingham": {
+                "Police": [
+                    "167.525 MHz - West Midlands Police"
+                ],
+                "Emergency Services": [
+                    "168.450 MHz - Birmingham Emergency"
+                ]
+            },
+            "Manchester": {
+                "Police": [
+                    "167.575 MHz - Greater Manchester Police"
+                ],
+                "Emergency Services": [
+                    "168.050 MHz - Manchester Emergency Services"
+                ]
+            },
+            "Liverpool": {
+                "Police": [
+                    "167.550 MHz - Merseyside Police"
+                ],
+                "Emergency Services": [
+                    "168.225 MHz - Liverpool Emergency"
+                ]
+            }
+        },
+        "Scotland": {
+            "Edinburgh": {
+                "Police": [
+                    "167.760 MHz - Police Scotland East"
+                ],
+                "Emergency Services": [
+                    "168.925 MHz - Edinburgh Emergency Services"
+                ]
+            },
+            "Glasgow": {
+                "Police": [
+                    "167.660 MHz - Police Scotland West"
+                ],
+                "Emergency Services": [
+                    "168.875 MHz - Glasgow Emergency Services"
+                ]
+            }
+        },
+        "Wales": {
+            "Cardiff": {
+                "Police": [
+                    "167.675 MHz - South Wales Police"
+                ],
+                "Emergency Services": [
+                    "168.525 MHz - Cardiff Emergency Services"
+                ]
+            }
+        },
+        "Northern Ireland": {
+            "Belfast": {
+                "Police": [
+                    "167.550 MHz - Police Service of Northern Ireland"
+                ],
+                "Emergency Services": [
+                    "168.750 MHz - Belfast Emergency Services"
+                ]
+            }
+        }
+    },
+    "Asia-Pacific": {
+        "Japan": {
+            "Tokyo": {
+                "Police": [
+                    "167.650 MHz - Tokyo Metropolitan Police Main",
+                    "167.700 MHz - Tokyo Metropolitan Police Tactical"
+                ],
+                "Fire": [
+                    "168.350 MHz - Tokyo Fire Department"
+                ],
+                "EMS": [
+                    "169.050 MHz - Tokyo Emergency Medical"
+                ]
+            },
+            "Osaka": {
+                "Police": [
+                    "167.725 MHz - Osaka Prefectural Police"
+                ],
+                "Emergency Services": [
+                    "168.400 MHz - Osaka Emergency Services"
+                ]
+            },
+            "Yokohama": {
+                "Police": [
+                    "167.675 MHz - Yokohama Municipal Police"
+                ],
+                "Emergency Services": [
+                    "168.450 MHz - Yokohama Emergency Services"
+                ]
+            }
+        },
+        "South Korea": {
+            "Seoul": {
+                "Police": [
+                    "167.750 MHz - Seoul Metropolitan Police Agency",
+                    "167.800 MHz - Seoul Metropolitan Police Tactical"
+                ],
+                "Fire": [
+                    "168.500 MHz - Seoul Fire Department"
+                ],
+                "EMS": [
+                    "169.150 MHz - Seoul Emergency Medical"
+                ]
+            },
+            "Busan": {
+                "Police": [
+                    "167.775 MHz - Busan Metropolitan Police"
+                ],
+                "Emergency Services": [
+                    "168.550 MHz - Busan Emergency Services"
+                ]
+            }
+        },
+        "Australia": {
+            "Sydney": {
+                "Police": [
+                    "167.825 MHz - New South Wales Police Force",
+                    "167.875 MHz - Sydney Metropolitan Police"
+                ],
+                "Fire": [
+                    "168.600 MHz - New South Wales Fire and Rescue"
+                ],
+                "EMS": [
+                    "169.200 MHz - New South Wales Ambulance"
+                ]
+            },
+            "Melbourne": {
+                "Police": [
+                    "167.850 MHz - Victoria Police"
+                ],
+                "Emergency Services": [
+                    "168.625 MHz - Melbourne Emergency Services"
+                ]
+            },
+            "Brisbane": {
+                "Police": [
+                    "167.900 MHz - Queensland Police Service"
+                ],
+                "Emergency Services": [
+                    "168.650 MHz - Brisbane Emergency Services"
+                ]
+            }
+        },
+        "New Zealand": {
+            "Auckland": {
+                "Police": [
+                    "167.925 MHz - New Zealand Police Auckland"
+                ],
+                "Emergency Services": [
+                    "168.675 MHz - Auckland Emergency Services"
+                ]
+            },
+            "Wellington": {
+                "Police": [
+                    "167.950 MHz - New Zealand Police Wellington"
+                ],
+                "Emergency Services": [
+                    "168.700 MHz - Wellington Emergency Services"
+                ]
+            }
+        },
+        "Singapore": {
+            "Singapore": {
+                "Police": [
+                    "167.975 MHz - Singapore Police Force",
+                    "168.025 MHz - Singapore Police Tactical"
+                ],
             "Fire": [
-                "154.280 MHz - Fire Dispatch",
-                "154.295 MHz - Fire Dispatch",
-                "154.340 MHz - Fire Dispatch"
+                    "168.725 MHz - Singapore Civil Defence Force"
             ],
             "EMS": [
-                "155.340 MHz - EMS Dispatch",
-                "155.400 MHz - EMS Dispatch"
-            ]
+                    "169.250 MHz - Singapore Emergency Medical"
+                ]
+            }
+        },
+        "Malaysia": {
+            "Kuala Lumpur": {
+                "Police": [
+                    "168.050 MHz - Royal Malaysia Police"
+                ],
+                "Emergency Services": [
+                    "168.750 MHz - Kuala Lumpur Emergency Services"
+                ]
+            }
+        },
+        "Thailand": {
+            "Bangkok": {
+                "Police": [
+                    "168.075 MHz - Royal Thai Police"
+                ],
+                "Emergency Services": [
+                    "168.775 MHz - Bangkok Emergency Services"
+                ]
+            }
+        },
+        "Indonesia": {
+            "Jakarta": {
+                "Police": [
+                    "168.100 MHz - Indonesian National Police"
+                ],
+                "Emergency Services": [
+                    "168.800 MHz - Jakarta Emergency Services"
+                ]
+            }
+        },
+        "Philippines": {
+            "Manila": {
+                "Police": [
+                    "168.125 MHz - Philippine National Police"
+                ],
+                "Emergency Services": [
+                    "168.825 MHz - Manila Emergency Services"
+                ]
+            }
+        },
+        "Vietnam": {
+            "Hanoi": {
+                "Police": [
+                    "168.150 MHz - Vietnam People's Public Security"
+                ],
+                "Emergency Services": [
+                    "168.850 MHz - Hanoi Emergency Services"
+                ]
+            }
+        },
+        "India": {
+            "Mumbai": {
+                "Police": [
+                    "168.175 MHz - Mumbai Police"
+                ],
+                "Emergency Services": [
+                    "168.875 MHz - Mumbai Emergency Services"
+                ]
+            },
+            "Delhi": {
+                "Police": [
+                    "168.200 MHz - Delhi Police"
+                ],
+                "Emergency Services": [
+                    "168.900 MHz - Delhi Emergency Services"
+                ]
+            }
+        },
+        "China": {
+            "Beijing": {
+                "Police": [
+                    "168.225 MHz - Beijing Municipal Public Security Bureau"
+                ],
+                "Emergency Services": [
+                    "168.925 MHz - Beijing Emergency Services"
+                ]
+            },
+            "Shanghai": {
+                "Police": [
+                    "168.250 MHz - Shanghai Municipal Public Security Bureau"
+                ],
+                "Emergency Services": [
+                    "168.950 MHz - Shanghai Emergency Services"
+                ]
+            }
+        },
+        "Taiwan": {
+            "Taipei": {
+                "Police": [
+                    "168.275 MHz - Taipei City Police Department"
+                ],
+                "Emergency Services": [
+                    "168.975 MHz - Taipei Emergency Services"
+                ]
+            }
+        },
+        "Hong Kong": {
+            "Hong Kong": {
+                "Police": [
+                    "168.300 MHz - Hong Kong Police Force"
+                ],
+                "Emergency Services": [
+                    "169.000 MHz - Hong Kong Emergency Services"
+                ]
+            }
         }
     }
 } 
